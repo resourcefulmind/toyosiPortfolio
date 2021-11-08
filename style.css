@@ -72,7 +72,6 @@ color: #3D042C;
     height: calc(100vh - 81px);
     display: flex;
     align-items: center;
-    border: 2px solid black;
 }
 
 header {
@@ -86,7 +85,6 @@ header h1 {
     font-size: 64px;
     line-height: 75px;
     color: #3D042C;
-    margin-bottom: 27px;
 }
 
 header p {
@@ -135,7 +133,6 @@ header .hero-image {
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    margin-right: 0;
 }
 
 header .hero-image img {
@@ -172,21 +169,28 @@ header .hero-image .photo-bg {
 }
 
 .search-box.active {
-    top: 72px;
+    top: 52px;
+    
 }
 
 .search-box input {
     background: #FFFFFA;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 42px;
     border: 0;
     padding: 12px 48px;
-    
+    border-radius: 8px;
 }
 
 .search-box input::placeholder {
     color: #b3b3b3;
+    border: none;
+    border-radius: 8px;
+}
+
+.search-box input::placeholder.active {
+    border: none;
 }
 
 /* Search & Close Buttons */
