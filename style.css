@@ -72,6 +72,7 @@ color: #3D042C;
     height: calc(100vh - 81px);
     display: flex;
     align-items: center;
+    border: 2px solid black;
 }
 
 header {
@@ -131,14 +132,19 @@ header a:hover {
 
 header .hero-image {
     position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-right: 0;
 }
 
 header .hero-image img {
     transition: 300ms;
     position: relative;
     z-index: 100;
-    width: 400;
-    height: 400;
+    width: 400px;
+    height: 400px;
+    top: 30px;
 }
 
 header .hero-image img:hover {
@@ -147,10 +153,10 @@ header .hero-image img:hover {
 
 header .hero-image .photo-bg {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     left: 47px;
-    top: 21px;
+    top: 51px;
     background: #D8C5D2;
     transform: rotate(4.76deg);
     
@@ -166,16 +172,17 @@ header .hero-image .photo-bg {
 }
 
 .search-box.active {
-    top: 81px;
+    top: 72px;
 }
 
 .search-box input {
     background: #FFFFFA;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
     font-size: 24px;
-    line-height: 32px;
+    line-height: 22px;
     border: 0;
     padding: 12px 48px;
+    
 }
 
 .search-box input::placeholder {
