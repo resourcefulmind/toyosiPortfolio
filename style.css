@@ -132,17 +132,51 @@ header .hero-image {
 
 header .hero-image img {
     transition: 300ms;
+    position: relative;
+    z-index: 100;
+    width: 400;
+    height: 400;
 }
 
 header .hero-image img:hover {
     transform: rotate(-6deg);
 }
 
+header .hero-image .photo-bg {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 47px;
+    top: 21px;
+    background: #D8C5D2;
+    transform: rotate(4.76deg);
+    
+}
 
+/* Search Box */
+.search-box {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+    top: 0;
+}
 
+.search-box.active {
+    top: 81px;
+}
+
+.search-box input {
+    background: #FFFFFA;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    line-height: 42px;
+    border: 0;
+    padding: 12px 48px;
+}
 
 /* Hidden Items */
 .search-box {
-    display: none;
+    /* display: none; */
 }
 
