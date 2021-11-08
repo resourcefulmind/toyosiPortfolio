@@ -189,10 +189,6 @@ header .hero-image .photo-bg {
     border-radius: 8px;
 }
 
-.search-box input::placeholder.active {
-    border: none;
-}
-
 /* Search & Close Buttons */
 .nav-btn-container {
     display: flex;
