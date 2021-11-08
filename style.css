@@ -18,6 +18,9 @@ body {
     background: #FFFFFA;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
     height: 81px;
+    margin-top: -77px;
+    z-index: 500;
+    position: relative;
 }
 
 .wrapper {
@@ -170,9 +173,47 @@ header .hero-image .photo-bg {
     background: #FFFFFA;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
     font-size: 24px;
-    line-height: 42px;
+    line-height: 32px;
     border: 0;
     padding: 12px 48px;
+}
+
+.search-box input::placeholder {
+    color: #b3b3b3;
+}
+
+/* Search & Close Buttons */
+.nav-btn-container {
+    display: flex;
+    position: relative;
+}
+
+.nav-btn-container img {
+    position: absolute;
+}
+
+.nav-btn-container .close-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: 300ms;
+}
+
+.nav-btn-container .search-btn {
+    pointer-events: auto;
+    transition: 300ms;
+}
+
+.nav-btn-container.active .search-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+}
+
+.nav-btn-container.active .close-btn {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
 }
 
 /* Hidden Items */
@@ -180,3 +221,5 @@ header .hero-image .photo-bg {
     /* display: none; */
 }
 
+
+/* made by @devVGBG (resourcefulmind on Github) with the aid of coding GT */
