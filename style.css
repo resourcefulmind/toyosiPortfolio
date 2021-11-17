@@ -228,5 +228,19 @@ header .hero-image .photo-bg {
     /* display: none; */
 }
 
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .nav-container {
+        background: #FFFFFA;
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+        height: 81px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+
+}
+
 
 /* made by @devVGBG (resourcefulmind on Github) with the aid of coding GT */
