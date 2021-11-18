@@ -12,19 +12,22 @@ body {
     font-family: "Roboto", sans-serif ;
 }
 
+.entire-container {
+    margin-top: -68px;
+}
+
 /* The Navigation */
 
 .nav-container {
     background: #FFFFFA;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
     height: 81px;
-    margin-top: -77px;
+    top: -77px;
     z-index: 500;
-    position: relative;
 }
 
 .wrapper {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -230,19 +233,16 @@ header .hero-image .photo-bg {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 768px) {
-    .nav-container {
-        position: absolute;
-        width: 768px;
-        height: 81px;
-        left: 0px;
-        top: 0px;
+/* Small devices (tablets, 768px and up) */
+
+@media (max-width: 767px) {
+    .entire-container {
+        border: 2px solid salmon;
+        width: 100%;
     }
 
-    .wrapper {
-        width: 768px;
-        margin: 0 auto;
-    }
+    
+
 
 }
 
