@@ -163,7 +163,7 @@ header .hero-image .photo-bg {
 }
 
 /* Search Box */
-.search-box {
+/* .search-box {
     width: 1200px;
     margin: 0 auto;
     text-align: right;
@@ -190,7 +190,7 @@ header .hero-image .photo-bg {
     color: #b3b3b3;
     border: none;
     border-radius: 8px;
-}
+} */
 
 /* Search & Close Buttons */
 .nav-btn-container {
@@ -228,7 +228,7 @@ header .hero-image .photo-bg {
 
 /* Hidden Items */
 .search-box {
-    /* display: none; */
+     display: none; 
 }
 
 /* MEDIA QUERIES */
