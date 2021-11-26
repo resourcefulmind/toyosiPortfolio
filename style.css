@@ -13,10 +13,30 @@ body {
 }
 
 .entire-container {
-    max-width: 100%;
+    max-width: 1676px;
 }
 
-/* The Navigation */
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    .nav-container {
+        position: absolute;
+        width: 768px;
+        height: 74.93px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFA;
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+}
+
+/* Very large devices (big screens from 1400px and up) */
+
+@media screen and (min-width: 1400px) {
+    /* The Navigation */
 
 .nav-container {
     background: #FFFFFA;
@@ -27,7 +47,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 70.754717%;
     margin: 0 auto;
 }
 
@@ -138,6 +158,10 @@ header .hero-image {
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 header .hero-image img {
     transition: 300ms;
     position: relative;
@@ -230,21 +254,6 @@ header .hero-image .photo-bg {
 .search-box {
      display: none; 
 }
-
-/* MEDIA QUERIES */
-
-/* Small devices (tablets, 768px and up) */
-
-@media (max-width: 767px) {
-    .entire-container {
-        border: 2px solid salmon;
-        width: 100%;
-    }
-
-    .
-    
-
-
 }
 
 
